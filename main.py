@@ -2,6 +2,15 @@
 import pandas as pd
 import numpy as np
 
+class Dog:
+  attr1 = "mammal"
+  attr2 = "dog"
+
+  # A sample method
+  def fun(self):
+      print("I'm a", self.attr1)
+      print("I'm a", self.attr2)
+
 def total_age(df):
   sum = 0
   for col, colitems in df.itercolumns():
